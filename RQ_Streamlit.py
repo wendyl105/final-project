@@ -55,11 +55,11 @@ st.markdown("---")
 
 
 # --- Load Data ---
-usa = pd.read_csv("my_data/top_united_states.csv")
-uk = pd.read_csv("my_data/top_uk.csv")
-canada = pd.read_csv("my_data/top_canada.csv")
-australia = pd.read_csv("my_data/top_australia.csv")
-india = pd.read_csv("my_data/top_india.csv")
+usa = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_united_states.csv")
+uk = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_uk.csv")
+canada = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_canada.csv")
+australia = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_australia.csv")
+india = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_india.csvv")
 
 datasets = {
     "USA": usa,
