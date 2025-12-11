@@ -67,11 +67,11 @@ ind_url = f"https://drive.google.com/uc?export=download&id={IND_FILE_ID}"
 uk_url = f"https://drive.google.com/uc?export=download&id={UK_FILE_ID}"
 usa_url = f"https://drive.google.com/uc?export=download&id={US_FILE_ID}"
 
-usa = pd.read_csv()
-uk = pd.read_csv()
-canada = pd.read_csv()
-australia = pd.read_csv()
-india = pd.read_csv()
+usa = pd.read_csv(usa_url)
+uk = pd.read_csv(uk_url)
+canada = pd.read_csv(can_url)
+australia = pd.read_csv(aus_url)
+india = pd.read_csv(ind_url)
 
 datasets = {
     "USA": usa,
