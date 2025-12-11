@@ -55,11 +55,23 @@ st.markdown("---")
 
 
 # --- Load Data ---
-usa = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_united_states.csv")
-uk = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_uk.csv")
-canada = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_canada.csv")
-australia = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_australia.csv")
-india = pd.read_csv("C:\Users\wlope\CS234\wellesley-cs234-fa25-cs-234-fp-class-demo-classdemo\my_data\top_india.csvv")
+AUS_FILE_ID = "1Sd74H1u9jyScJjKMsdh0tRBOQCMUQOms"
+CAN_FILE_ID = "1D4DhpzjxHRUckV4wf2_52rRLkJChKfoi"
+IND_FILE_ID = "1lD6Zayix3syAt52OMi3bbP48PZG8N3LX"
+UK_FILE_ID = "1CmwdPMtkR3H4upLHvSqcO-KqCn_N-_2m"
+US_FILE_ID = "1igWO00vsUbNwHsqNt7-QPbRvzVTRTxTZ"
+
+aus_url = f"https://drive.google.com/uc?export=download&id={AUS_FILE_ID}"
+can_url = f"https://drive.google.com/uc?export=download&id={CAN_FILE_ID}"
+ind_url = f"https://drive.google.com/uc?export=download&id={IND_FILE_ID}"
+uk_url = f"https://drive.google.com/uc?export=download&id={UK_FILE_ID}"
+usa_url = f"https://drive.google.com/uc?export=download&id={US_FILE_ID}"
+
+usa = pd.read_csv()
+uk = pd.read_csv()
+canada = pd.read_csv()
+australia = pd.read_csv()
+india = pd.read_csv()
 
 datasets = {
     "USA": usa,
